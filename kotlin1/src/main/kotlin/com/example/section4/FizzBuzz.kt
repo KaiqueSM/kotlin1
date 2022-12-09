@@ -6,7 +6,7 @@ fun main() {
 }
 
 fun fizzBuzz(numMax: Int = 15): List<String>{
-    var list = ArrayList<String>()
+    var list = mutableListOf<String>()
 
     for (num in 1..numMax){
         val item = when{
